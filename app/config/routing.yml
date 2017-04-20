@@ -1,0 +1,3 @@
+kp_lib:
+    resource: "@KPLibBundle/Resources/config/routing.yml"
+    prefix:   /

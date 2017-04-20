@@ -1,0 +1,15 @@
+kp_lib_livre:
+        resource: "@KPLibBundle/Resources/config/routing/livre.yml"
+        prefix:   /livre
+
+kp_lib_livre:
+        resource: "@KPLibBundle/Resources/config/routing/livre.yml"
+        prefix:   /livre
+
+kp_lib_auteur:
+    resource: "@KPLibBundle/Resources/config/routing/auteur.yml"
+    prefix:   /auteur
+
+kp_lib_homepage:
+    path:     /
+    defaults: { _controller: KPLibBundle:Default:index }
