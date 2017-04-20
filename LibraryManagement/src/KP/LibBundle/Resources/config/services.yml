@@ -1,0 +1,4 @@
+services:
+#    kp_lib.example:
+#        class: KP\LibBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
