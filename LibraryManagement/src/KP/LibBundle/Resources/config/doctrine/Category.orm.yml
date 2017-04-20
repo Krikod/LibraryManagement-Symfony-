@@ -1,0 +1,17 @@
+KP\LibBundle\Entity\Category:
+    type: entity
+    table: null
+    repositoryClass: KP\LibBundle\Repository\CategoryRepository
+    id:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+    fields:
+        nom:
+            type: string
+            length: 255
+        idLivre:
+            type: integer
+    lifecycleCallbacks: {  }
